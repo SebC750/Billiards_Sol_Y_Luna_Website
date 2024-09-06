@@ -1,0 +1,31 @@
+/* Styles for unique components*/
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(85, 85, 110);
+}
+
+.navbar{
+    background-color: rgb(52, 52, 68);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar-logo img{
+   height: 100px;
+   width: 100px;
+   margin-right: 20px;
+}
+.navbar-title{
+    font-size: 24px;
+}
+.introduction-container{
+    background-color: rgb(52, 52, 68);
+    height: 80vh;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px 0 0 0;
+}
