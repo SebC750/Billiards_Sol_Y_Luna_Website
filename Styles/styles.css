@@ -8,18 +8,30 @@ body {
 }
 
 .navbar {
-    background-color: rgb(52, 52, 68);
+    background-color: transparent;
+    position: absolute;
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
-
+.navbar-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
 .navbar-logo {
     display: flex;
     align-items: center;
     justify-content: start;
+    
+    cursor: pointer;
+    
+    border-radius: 5px;
+    padding: 0 20px;
+    margin: 10px;
 }
 
 .navbar-logo img {
@@ -28,32 +40,7 @@ body {
     margin-right: 20px;
     margin-left: 20px;
 }
-.navbar-dropdown select{
-    margin-right: 20px;
-    border-style: solid;
-    border-color: rgb(240, 240, 67);
-    border-width: 2px;
-    border-radius: 5px;
-    padding: 10px;
 
-    background-color: rgb(240, 240, 67);
-    color: black;
-    cursor: pointer;
-
-    transition: all 0.3s ease;
-}
-.navbar-dropdown select:hover{
-    background-color: transparent;
-    color: rgb(240, 240, 67);
-}
-.navbar-dropdown option{
-    
-        background-color: white;
-        color: black;
-        cursor: pointer;
-        border-radius: 2px 0 0 0;
-    
-}
 .navbar-title {
     font-size: 24px;
     color: white;
@@ -61,7 +48,7 @@ body {
 
 .introduction-container {
     background-color: rgb(52, 52, 68);
-    height: 80vh;   
+    height: auto;   
 }
 
 .contacts-sections {
@@ -92,6 +79,23 @@ body {
     
     justify-content: space-between;
 }
+.billiards-picture img{
+    width: 100%;
+    height: auto;
+    filter: opacity(0.5) 
+}
+.menu-icon{
+    display: none;
+    background-image: url("Assets/menu_icon.png")
+}
+
+.introduction-content{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 30px;
+    z-index: 2;
+}
 .directions img{
     height: 450px;
     width: 700px;
@@ -105,5 +109,19 @@ body {
         height: 350px;
         width: 500px;
         margin-right: 20px;
+    }
+    .navbar{
+        margin-top: 10px;
+    }
+    .navbar-logo img{
+        
+        height: 50px;
+        width: 50px;
+    }
+    .navbar-logo h3{
+        font-size: 16px;
+    }
+    .menu-icon{
+        display: block;
     }
 }
