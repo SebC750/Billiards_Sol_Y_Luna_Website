@@ -19,12 +19,15 @@
                     <h3> Billiards Sol y Luna</h3>
                 </div>
             </div>
+            <div class="navbar-dropdown">
 
-            <select name="dropdown" class="navbar-dropdown">
-                <option> Contactos </option>
-                <option> Direcciones </option>
-            </select>
 
+                <select name="dropdown">
+                    <option> Mas informacion</option>
+                    <option> <a href="#contacts-anchor"> Contactos </a> </option>
+                    <option> <a href="#directions-anchor"> Direcciones </a> </option>
+                </select>
+            </div>
             </div>
         </nav>
     </header>
@@ -35,27 +38,50 @@
         </div>
     </div>
     <div class="promotions-section">
-        <div class="promotions-title"> <div class="body-text"> Promociones! </div>  </div>
+        <div class="promotions-title">
+            <div class="body-text"> Promociones! </div>
+        </div>
     </div>
-    
 
 
-        <footer>
-            <div class="contacts-sections">
-                <div class="footer-title">
-                    <h1> Contactos </h1>
-                </div>
-                <div class="contact-list">
-                    <img src="Assets/gmail_icon.svg" class="contact-logo" alt="gmail logo" /> : <div
-                        class="contact-info">
-                        <p> (gmail goes here.)</p>
-                    </div>
-                    <img src="Assets/phone_icon.svg" class="contact-logo" alt="phone logo" /> : <div
-                        class="contact-info">
-                        <p> (phone number goes here.)</p>
-                    </div>
+
+    <footer>
+
+        <div class="contacts-sections">
+            <div class="footer-title">
+                <h1 id="contacts-anchor"> Contactos </h1>
+            </div>
+
+            <div class="contact-info">
+                <img src="Assets/gmail_icon.svg" class="contact-logo" alt="gmail logo" /> : <div class="contact">
+                    <p> (gmail goes here.) </p>
                 </div>
             </div>
-        </footer>
-    
+            <div class="contact-info">
+                <img src="Assets/phone_icon.svg" class="contact-logo" alt="phone logo" /> : <div class="contact">
+                    <p> (phone number goes here.) </p>
+                </div>
+
+            </div>
+            <div class="contact-info">
+                <img src="Assets/Instagram_logo_2016.svg" class="contact-logo" alt="instagram logo" /> : <div
+                    class="contact">
+                    <p> billaressolyluna </p>
+                </div>
+            </div>
+        </div>
+        <div class="directions-section"></div>
+        <div class="footer-title">
+            <h1 id="directions-anchor"> Direcciones </h1>
+        </div>
+
+        <div class="directions">
+            <p> 102-02 43rd ave, Corona NY</p> <img src="Assets/billiards-directions.png"
+                alt="directions to billiards" />
+        </div>
+
+        </div>
+
+    </footer>
+
 </body>

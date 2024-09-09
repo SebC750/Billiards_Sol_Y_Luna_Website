@@ -4,79 +4,75 @@ This allows me to reuse html components without repeatedly setting the same attr
 */
 
 
-span{
+span {
     margin-left: 10px;
     font-size: 32px;
 }
-button{
-     border-style: solid;
-     border-color: rgb(240, 240, 67);
-     border-width: 2px;
-     border-radius: 5px;
-     padding: 10px;
-     background-color: rgb(240, 240, 67);
-     color: black;
-     cursor: pointer;
-     transition: all 0.3s ease;
-}
-select{
-     border-style: solid;
-     border-color: rgb(240, 240, 67);
-     border-width: 2px;
-     border-radius: 5px;
-     padding: 10px;
-     
-     background-color: rgb(240, 240, 67);
-     color: black;
-     cursor: pointer;
-     
-     transition: all 0.3s ease;
-}
-select:hover{
-    background-color: transparent;
-    color: rgb(240, 240, 67);
-}
-option{
-    background-color: white;
+
+button {
+    border-style: solid;
+    border-color: rgb(240, 240, 67);
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(240, 240, 67);
     color: black;
-    cursor:pointer;
-    border-radius: 2px 0 0 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-button:hover{
+
+
+
+
+button:hover {
     background-color: transparent;
     color: rgb(240, 240, 67);
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-ul,li{
-    text-decoration: none;   
+
+ul,
+li {
+    text-decoration: none;
 }
-footer{
+
+footer {
     flex-shrink: 0;
-  height: 20vh; 
-  width: 100%;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
 }
-.contact-list{
+
+.contact-info {
     display: flex;
-    align-items: center; 
-    justify-content: center;
+    align-items: center;
 }
-.contact-logo{
-    width: 120px;
-    height: 120px;
+
+.contact-logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-.contact-info{
+.contact-logo:hover{
+    width: 100px;
+    height: 100px;
+}
+.contact {
     font-size: 24px;
     color: white;
 }
-@media(max-width: 720px){
-    .contact-logo{
+
+@media(max-width: 720px) {
+    .contact-logo {
         width: 80px;
         height: 80px;
     }
-    .contact-list{
-        flex-direction: column;
-    }
+
 }

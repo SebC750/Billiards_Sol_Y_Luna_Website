@@ -14,11 +14,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .navbar-logo {
-
     display: flex;
     align-items: center;
     justify-content: start;
@@ -30,8 +28,31 @@ body {
     margin-right: 20px;
     margin-left: 20px;
 }
-.navbar-dropdown{
+.navbar-dropdown select{
     margin-right: 20px;
+    border-style: solid;
+    border-color: rgb(240, 240, 67);
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+
+    background-color: rgb(240, 240, 67);
+    color: black;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+.navbar-dropdown select:hover{
+    background-color: transparent;
+    color: rgb(240, 240, 67);
+}
+.navbar-dropdown option{
+    
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        border-radius: 2px 0 0 0;
+    
 }
 .navbar-title {
     font-size: 24px;
@@ -40,19 +61,49 @@ body {
 
 .introduction-container {
     background-color: rgb(52, 52, 68);
-
-    height: 80vh;
-    
+    height: 80vh;   
 }
 
 .contacts-sections {
     background-color: black;
-    width: 100%;
-    text-align: center;
-    min-height: 50vh;
+    width: 100%; 
+    
 }
 
-.footer-title {
-    padding: 20px;
+.footer-title { 
     color: white;
+    text-align: left;
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-color: white;
+}
+.footer-title h1{ 
+    margin-left: 20px;
+}
+.promotions-title{
+    font-size: 42px;
+}
+.directions{
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.directions img{
+    height: 450px;
+    width: 700px;
+    margin-right: 20px;
+}
+@media(max-width: 960px){
+    .directions{
+        flex-direction: column;
+    }
+    .directions img{
+        height: 350px;
+        width: 500px;
+        margin-right: 20px;
+    }
 }
