@@ -14,7 +14,7 @@ span {
     border-color: rgb(240, 240, 67);
     border-width: 2px;
     border-radius: 5px;
-    font-size: 24px;
+    font-size: 16px;
     padding: 10px 20px 10px 20px;
     
     background-color: rgb(240, 240, 67);
@@ -24,10 +24,21 @@ span {
     transition: all 0.3s ease;
 }
 
+.section-title{
+    font-size: 32px;
+}
 
-
-
-button:hover {
+.section{
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+    
+    background-color: rgb(240, 240, 67);
+}
+.nav-buttons:hover {
     background-color: transparent;
     color: rgb(240, 240, 67);
 }
@@ -42,13 +53,7 @@ li {
     text-decoration: none;
 }
 
-footer {
-    flex-shrink: 0;
-    margin-top: 20px;
-    width: 100%;
-    min-height: 100vh;
-    background-color: black;
-}
+
 
 .contact-info {
     display: flex;
@@ -56,9 +61,9 @@ footer {
 }
 
 .contact-logo {
-    width: 80px;
-    height: 80px;
-    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
     margin-right: 20px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -68,16 +73,13 @@ footer {
     height: 100px;
 }
 .contact {
-    font-size: 24px;
+    font-size: 12px;
     color: white;
 }
-
-@media(max-width: 720px) {
-    .contact-logo {
-        width: 80px;
-        height: 80px;
-    }
-    .navbar-buttons{
+@media(max-width: 960px){
+    .nav-buttons{
         display: none;
+        
     }
 }
+

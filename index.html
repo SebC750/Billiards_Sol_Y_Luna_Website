@@ -10,89 +10,124 @@
 </head>
 
 <body>
+
     <header>
         <!-- Navbar Component that shows the logo and name of the establishment.-->
         <nav class="navbar">
             <div class="navbar-logo">
                 <img src="Assets/sunandmoon.png" alt="sun and moon png" />
                 <div class="navbar-title">
-                    <h3> Billiares <span style="color: yellow"> Sol</span> y <span style="color: rgb(176, 178, 196)"> Luna </span></h3>
+                    <h3> Billiares <span style="color: yellow"> Sol</span> y <span style="color: rgb(176, 178, 196)">
+                            Luna </span></h3>
                 </div>
             </div>
             <div class="navbar-buttons">
-                <button class="nav-buttons"> Horas de apertura </button>
-                <a href="#contacts-anchor"> <button class="nav-buttons" >
-                    Contactos </button></a>
+                <a href="#contacts-anchor"> <button class="nav-buttons"> Horas de apertura </button> </a>
+                <a href="#contacts-anchor"> <button class="nav-buttons">
+                        Contactos </button></a>
+            </div>
+            </div>
+
+            </div>
+            <div class="menu-icon" id="menu-dropdown" onclick="">
+                <img src="../Assets/icons8-menu.svg" alt="menu icon" />
+                <div class="menu-options">
+
                 </div>
             </div>
-            
-            </div>
-            <div class="menu-icon"></div>
         </nav>
     </header>
 
     <div class="introduction-container">
         <div class="introduction-content">
-            <h1> Saludos a todos! </h1> 
-            <p> Bienvenidos a la pagina oficial de Billares Sol y Luna! Un establecimiento para disfrutar con toda la familia!</p>
+            <h1> Saludos a todos! </h1>
+            <p> Bienvenidos a la pagina oficial de Billares Sol y Luna! Un establecimiento de juego y bebida para
+                disfrutar con toda la
+                familia! </p>
+            <a href="#promociones"> <button class="nav-buttons"> Descubrir mas! ↓ </button> </a>
         </div>
         <div class="billiards-picture">
-            <!-- Billiards Landscape picture goes here.-->
-             
-             <img src="Assets/billiards-inside-1.jpeg" alt="Picture of the inside of the billiards" />
+            <!-- Billiards Landscape picture goes here. I need it to be a little bit transparent for the overlay text to be more visible but for now, the text has a box-shadow.-->
+
+            <img src="Assets/billiards-inside-1.jpeg" alt="Picture of the inside of the billiards" />
         </div>
     </div>
-    <div class="promotions-section">
-        <div class="section-title">
-            <div class="body-text"> Promociones! </div>
-            
+    <img src="Assets/billiards-bg.jpg" class="background-image" alt="billiards background" />
+
+    <div class="section">
+        <div class="section-title" id="promociones">
+            Promociones!
         </div>
+        <p> En billares sol y luna, tenemos promociones para las bebidas mas frias que les gustan!</p>
+    </div>
+    <div class="section">
+        <div class="section-title">
+            Nuestra Seleccion
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">
+            Todos los canales!
+        </div>
+    </div>
+    
     </div>
 
-
-    <div class="hours-section">
-        <div class="section-title">
-            <div class="body-text"> Horas de Apertura/Cierre </div>
-            
-        </div>
-    </div>
     <footer>
+        <div class="footer-sections">
 
-        <div class="contacts-sections">
-            <div class="footer-title">
-                <h1 id="contacts-anchor"> Contactos </h1>
-            </div>
-
-            <div class="contact-info">
-                <img src="Assets/gmail_icon.svg" class="contact-logo" alt="gmail logo" /> : <div class="contact">
-                    <p> (gmail goes here.) </p>
-                </div>
-            </div>
-            <div class="contact-info">
-                <img src="Assets/phone_icon.svg" class="contact-logo" alt="phone logo" /> : <div class="contact">
-                    <p> (phone number goes here.) </p>
+            <div class="contacts-sections">
+                <div class="footer-title">
+                    <h1 id="contacts-anchor"> Contactos </h1>
                 </div>
 
-            </div>
-            <div class="contact-info">
-                <img src="Assets/Instagram_logo_2016.svg" class="contact-logo" alt="instagram logo" /> : <div
-                    class="contact">
-                    <p> billaressolyluna </p>
+                <div class="contact-info">
+                    <img src="Assets/gmail_icon.svg" class="contact-logo" alt="gmail logo" /> : <div class="contact">
+                        <p> (gmail goes here.) </p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <img src="Assets/phone_icon.svg" class="contact-logo" alt="phone logo" /> : <div class="contact">
+                        <p> (phone number goes here.) </p>
+                    </div>
+
+                </div>
+                <div class="contact-info">
+                    <img src="Assets/Instagram_logo_2016.svg" class="contact-logo" alt="instagram logo" /> : <div
+                        class="contact">
+                        <p> billaressolyluna </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="directions-section"></div>
-        <div class="footer-title">
-            <h1 id="directions-anchor"> Direcciones </h1>
-        </div>
+            <div class="directions-section">
+                <div class="footer-title">
+                    <h1 id="directions-anchor"> Direcciones </h1>
+                </div>
+                <div class="directions">
+                    <p> 102-02 43rd ave, Corona NY</p> <img src="Assets/billiards-directions.png"
+                        alt="directions to billiards" />
+                </div>
+            </div>
+            <div class="hours-section">
+                <h1> Horas de Apertura/Cierre </h1>
+                <table class="billiards-schedule">
+                    <th>
+                        <tr class="schedule-headers">
+                            <td> Dia </td>
+                            <td> Horas </td>
+                        </tr>
+                    </th>
+                    <tbody>
 
-        <div class="directions">
-            <p> 102-02 43rd ave, Corona NY</p> <img src="Assets/billiards-directions.png"
-                alt="directions to billiards" />
-        </div>
+                    </tbody>
+                </table>
+            </div>
+
+
 
         </div>
-
+        </div>
+        <p align="center" style="color: white; opacity: 50%;"> Billiards Sol y Luna 2024</p>
     </footer>
 
 </body>

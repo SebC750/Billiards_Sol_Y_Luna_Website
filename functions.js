@@ -1,5 +1,10 @@
+import "./hours.json"
+
 document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById("dropdown").addEventListener('change', function(){
-        location = this.value;
-    })
+    menuDropdown = document.getElementById("meun-dropdown")
+    menuDropdown.onclick = function(){
+        
+    }
 })
+
+
