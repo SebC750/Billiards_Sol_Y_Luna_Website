@@ -15,8 +15,7 @@ span {
     border-width: 2px;
     border-radius: 5px;
     font-size: 16px;
-    padding: 10px 20px 10px 20px;
-    
+    padding: 10px 20px 10px 20px;   
     background-color: rgb(240, 240, 67);
     color: black;
     cursor: pointer;
@@ -33,9 +32,7 @@ span {
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 5px;
-    
-    
+    border-radius: 5px; 
     background-color: rgb(240, 240, 67);
 }
 .nav-buttons:hover {
@@ -76,10 +73,10 @@ li {
     font-size: 12px;
     color: white;
 }
-@media(max-width: 960px){
+
+@media(max-width: 720px){
     .nav-buttons{
-        display: none;
-        
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
     }
 }
-

@@ -11,7 +11,7 @@ body {
 .background-image{
     position: absolute;
     z-index: -1;
-    height: 40%;
+    height: 60%;
     width: 100vw;
 }
 header{
@@ -44,7 +44,26 @@ header{
     padding: 0 20px;
     margin: 10px;
 }
-
+.btn{
+    margin-right: 30px;
+    --bs-btn-color: black;
+    --bs-btn-bg: yellow;
+    --bs-btn-border-color: yellow;
+    --bs-btn-hover-bg: rgb(214, 214, 31);
+    --bs-btn-hover-border-color: rgb(214, 214, 31);
+    --bs-btn-active-bg: rgb(214, 214, 31);
+    --bs-btn-active-border-color: rgb(214, 214, 31);
+}
+.dropdown-menu{
+    position: absolute;
+    z-index: 1001; 
+    
+    
+    --bs-dropdown-color: black;
+    --bs-dropdown-bg: rgb(238, 238, 34);
+    --bs-dropdown-border-color: rgb(214, 214, 31);
+    --bs-dropdown-link-hover-bg: rgb(172, 172, 23);
+}
 .navbar-logo img {
     height: 80px;
     width: 80px;
@@ -82,15 +101,16 @@ header{
     color: white;
     text-align: left;
     margin-left: 20px;
-    
+    margin-top: 20px;
 }
 
 .hours-section{
+    margin-top: 20px;
     width: 100%;
     color: white;
     font-size: 12px;
     margin-left: 20px;
-    margin-top: 20px;
+    
 }
 .schedule-headers{
     font-size: 12px;
@@ -110,32 +130,10 @@ header{
 .billiards-picture img{
     width: 100%;
     height: auto;
-    z-index: -10;
+    
 }
 
-.menu-icon{
-    display: none;
-    
-    cursor: pointer;
-    background-color: yellow;
-    height: auto;
-    padding: 20px;
-    transition: all 0.3s ease;
-}
-.menu-icon:hover{
-    background-color: rgb(196, 196, 29);
-}
-.menu-icon img{
-    height: 50px;
-    width: 50px;
-}
-.menu-options{
-    display: none;
-}
-.menu-icon:hover .menu-options{
-    display: block;
-    cursor: pointer;
-}
+
 .introduction-content{
     position: absolute;
     color: yellow;
@@ -143,7 +141,7 @@ header{
     left: 100px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     width: 50%;
-    z-index: -1;
+    z-index: 10;
 }
 .introduction-content h1{
     font-size: 36px;
@@ -157,11 +155,17 @@ header{
     width: 700px;
     margin-right: 20px;
 }
+.footer{
+    background-color: black;
+    padding-bottom: 20px;
+}
 .footer-sections{
     margin-top: 20px;
     display: flex;
     align-items: start;
     background-color: black;
+    height: 55vh;
+    
 }
 @media(max-width: 1080px){
     .introduction-content{
