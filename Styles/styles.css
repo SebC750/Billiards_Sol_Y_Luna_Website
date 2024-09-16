@@ -1,7 +1,6 @@
 /* Styles for unique components*/
 
-body {
-    
+body {  
     margin: 0;
     padding: 0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -9,24 +8,25 @@ body {
     background-color: black;
 }
 .background-image{
-    position: absolute;
-    z-index: -1;
-    height: 60%;
+    background-image: url("../Assets/billiards-bg-2.jpg");
+    position: fixed;
+    z-index: -10;
+    height: 100%;
     width: 100vw;
-}
-header{
-    position: sticky;
-    top: 0;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
 }
 .navbar { 
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: black;  
-    z-index: 1000;
+    z-index: 100;
 }
 .navbar-buttons{
     display: flex;
@@ -36,12 +36,9 @@ header{
 .navbar-logo {
     display: flex;
     align-items: center;
-    justify-content: start;
-    
-    cursor: pointer;
-    
-    border-radius: 5px;
-    padding: 0 20px;
+    justify-content: start;   
+    cursor: pointer;   
+    border-radius: 5px;  
     margin: 10px;
 }
 .btn{
@@ -56,9 +53,6 @@ header{
 }
 .dropdown-menu{
     position: absolute;
-    z-index: 1001; 
-    
-    
     --bs-dropdown-color: black;
     --bs-dropdown-bg: rgb(238, 238, 34);
     --bs-dropdown-border-color: rgb(214, 214, 31);
@@ -78,8 +72,7 @@ header{
 .navbar-logo img:hover{
     height: 90px;
     width: 90px;
-    border-color: yellow;
-    
+    border-color: yellow;   
 }
 .navbar-title {
     font-size: 24px;
@@ -87,14 +80,12 @@ header{
 }
 
 .introduction-container {
-    background-color: rgb(52, 52, 68);
     height: auto;   
 }
 
 .contacts-sections {
     background-color: black;
     width: 100%; 
-    
 }
 
 .footer-title { 
@@ -117,7 +108,6 @@ header{
     font-weight: 300px;
 }
 
-
 .directions{
     color: white;
     font-size: 12px;
@@ -128,45 +118,47 @@ header{
 }
 
 .billiards-picture img{
-    width: 100%;
-    height: auto;
-    
+    width: 100%;   
+    opacity: 0;
 }
 
-
 .introduction-content{
-    position: absolute;
+    z-index: 1;
+    position: relative;
     color: yellow;
     top: 250px;
     left: 100px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    width: 50%;
-    z-index: 10;
+    width: 50%; 
 }
+
 .introduction-content h1{
     font-size: 36px;
 }
+
 .introduction-content p{
-    font-size: 24px;
-    
+    font-size: 24px;  
 }
+
 .directions img{
     height: 450px;
     width: 700px;
     margin-right: 20px;
 }
+
 .footer{
     background-color: black;
     padding-bottom: 20px;
 }
+
 .footer-sections{
     margin-top: 20px;
     display: flex;
     align-items: start;
     background-color: black;
-    height: 55vh;
-    
+    height: 55vh;   
 }
+
 @media(max-width: 1080px){
     .introduction-content{
         top: 140px;
@@ -207,6 +199,7 @@ header{
     }
     
 }
+
 @media(max-width: 960px){
     .menu-icon{        
             display: block;
