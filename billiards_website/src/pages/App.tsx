@@ -10,10 +10,10 @@ function App() {
     <>
       <Navbar />
       <section>
-      <HeroSection />
+        <HeroSection />
       </section>
       <section id="info-section">
-        <InfoCards/>
+        <InfoCards />
       </section>
       <section>
 
