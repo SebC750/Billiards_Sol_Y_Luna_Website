@@ -2,22 +2,26 @@
 import '../styles/App.css'
 import Navbar from "./components/Navbar"
 import HeroSection from "./components/HeroSection"
+import InfoCards from "./components/InfoCards"
+import Footer from "./components/Footer"
 function App() {
 
   return (
-    <> 
-    <Navbar/>
-    <HeroSection/>
-    <section>
+    <>
+      <Navbar />
+      <section>
+      <HeroSection />
+      </section>
+      <section id="info-section">
+        <InfoCards/>
+      </section>
+      <section>
 
-    </section>
-    <section>
+      </section>
+      <section>
 
-    </section>
-    <section>
-    
-    </section> 
-           
+      </section>
+      <Footer />
     </>
   )
 }
