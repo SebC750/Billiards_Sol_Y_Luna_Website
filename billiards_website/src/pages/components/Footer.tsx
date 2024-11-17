@@ -5,8 +5,8 @@ const Footer = () => {
       <div className="w-full bg-yellow-400 h-auto flex flex-col md:flex-row pl-[25%] md:px-24 justify-center space-x-0 md:space-x-36 py-24">
         <section>
           <h3 className="font-fascinate"> Billiards Sol y Luna </h3>
-          <p> 102-02 43rd ave Corona, NY</p>
-          <p className="flex items-center"> <i className="bi bi-telephone-fill text-2xl"></i> +1 929-423-4571 </p>
+          <p className="flex items-center gap-2"> <i className="bi bi-geo-alt-fill text-2xl"></i> 102-02 43rd ave Corona, NY</p>
+          <p className="flex items-center gap-2"> <i className="bi bi-telephone-fill text-2xl"></i> +1 929-423-4571 </p>
         </section>
         <section>
           <h3 className="font-fascinate"> Horas de Apertura</h3>

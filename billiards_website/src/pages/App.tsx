@@ -2,8 +2,9 @@
 import '../styles/App.css'
 import Navbar from "./components/Navbar"
 import HeroSection from "./components/HeroSection"
-import InfoCards from "./components/InfoCards"
+import InfoSection from "./components/InfoSection"
 import Footer from "./components/Footer"
+
 function App() {
 
   return (
@@ -12,14 +13,8 @@ function App() {
       <section>
         <HeroSection />
       </section>
-      <section id="info-section">
-        <InfoCards />
-      </section>
       <section>
-
-      </section>
-      <section>
-
+        <InfoSection/>
       </section>
       <Footer />
     </>

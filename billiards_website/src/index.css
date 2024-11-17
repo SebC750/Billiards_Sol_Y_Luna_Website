@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 :root{
-   background: black !important;
+   background-color: black !important;
+}
+html, body{
+   background-color: black !important;
 }
