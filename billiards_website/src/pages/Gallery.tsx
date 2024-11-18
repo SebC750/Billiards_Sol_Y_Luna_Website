@@ -16,12 +16,13 @@ const Gallery = () => {
                                 src={val.pictureLink} 
                                 alt={val.altTitle} 
                                 loading={val.loading}
+                                height={val.height}
+                                width={val.width}
                                 className="object-cover cursor-pointer transition-all border-transparent border-duration-300 hover:p-2 hover:border-2 hover:border-yellow-400" 
                                 />
                             </>
                         ))}
-                    </div>      
-                          
+                    </div>                              
                 </div>
                 <Footer />
             </div>

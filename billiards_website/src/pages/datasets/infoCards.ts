@@ -8,6 +8,7 @@ export interface MenuCard extends InfoCard {
 }
 
 export interface HomeCard extends InfoCard {
+    altTitle: string;
     imageFile?: string;
     cardLink: string;
     cardLinkText: string;
@@ -15,31 +16,35 @@ export interface HomeCard extends InfoCard {
 
 export const homeCardsList: HomeCard[] = [
     {
-        imageFile: "assets/beverages_bg_image.webp",
+        imageFile: "images/beverages_bg_image.webp",
+        altTitle: "Card image for the alcoholic beverages menu",
         cardTitle: "Bebidas",
         cardDescription: "Visítanos para disfrutar de una buena selección de bebidas y comidas en un ambiente de billar y taberna.",
         cardLink: "/Menu",
         cardLinkText: "Ver precios"
     },
     {
-        imageFile: "assets/billiards-bg-2.webp",
+        imageFile: "images/billiards-bg-2.webp",
+        altTitle: "Card image for the pool table menu section",
         cardTitle: "Juegos de billar",
         cardDescription: "Vengan a jugar billar con sus amigos para aprender sobre el juego y disfrutar de buenas experiencias.",
         cardLink: "/Menu",
         cardLinkText: "Ver precios"
     },
     {
-        imageFile: "assets/gallery_card_image.webp",
+        imageFile: "images/gallery_card_image.webp",
+        altTitle: "Card image for the gallery section",
         cardTitle: "Gallery",
         cardDescription: "Sumérgete en nuestro acogedor bar y sala de billar, donde te esperan buena compañía, un ambiente amigable y juegos emocionantes. ¡Descubre el ambiente vibrante y echa un vistazo a las noches llenas de diversión en nuestro establecimiento!",
         cardLink: "/Gallery",
         cardLinkText: "Ver galleria"
     },
     {
-        imageFile: "assets/catering_bg_image.webp",
+        imageFile: "images/catering_bg_image.webp",
+        altTitle: "Card image for the catering menu section",
         cardTitle: "Catering",
         cardDescription: "Descubre nuestras opciones de catering para eventos en nuestro bar y salón de billar. Ofrecemos un ambiente único y deliciosos platillos para que tus reuniones sean inolvidables.",
-        cardLink: "/Prices",
+        cardLink: "/Menu",
         cardLinkText: "Ver precios"
     }
 ]

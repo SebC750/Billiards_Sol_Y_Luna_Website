@@ -4,7 +4,7 @@ const HeroSection = () => {
             <div
                 className="hero min-h-screen"
                 style={{
-                    backgroundImage: "url(assets/billiards-inside-1.webp)",
+                    backgroundImage: "url(images/billiards-inside-1.webp)",
                 }}>
                 <div className="hero-overlay bg-opacity-60 pt-36 sm:pt-12"></div>
                 <div className="hero-content text-yellow-400 text-center">
