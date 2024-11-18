@@ -5,19 +5,19 @@ export type Picture = {
 
 export const gallery: Picture[] = [
     {
-        altTitle: "",
+        altTitle: "billiards image inside 1",
         pictureLink: "assets/billiards-inside-1.jpeg"
     },
     {
-        altTitle: "",
+        altTitle: "billiards image inside 2",
         pictureLink: "assets/gallery_card_image.jpg"
     },
     {
-        altTitle: "",
+        altTitle: "billiards image inside 3",
         pictureLink: ""
     },
     {
-        altTitle: "",
+        altTitle: "billiards image inside 4",
         pictureLink: ""
     },
 ]

@@ -3,15 +3,14 @@ export type InfoCard = {
     cardDescription: string;
 }
 
-export interface MenuCard extends InfoCard{
+export interface MenuCard extends InfoCard {
     itemPrice: number | [number, number];
-    brandsAvailable?: string[];
 }
 
-export interface HomeCard extends InfoCard {   
+export interface HomeCard extends InfoCard {
     imageFile?: string;
     cardLink: string;
-    cardLinkText: string;    
+    cardLinkText: string;
 }
 
 export const homeCardsList: HomeCard[] = [
@@ -41,68 +40,63 @@ export const homeCardsList: HomeCard[] = [
 export const menuCardsList: MenuCard[] = [
     {
         cardTitle: "Cerveza individual",
-        cardDescription: "Una botella singular de los siguentes marcas",
+        cardDescription: "Una botella singular de los siguentes marcas: Heineken, Corona, Modelo",
         itemPrice: 6,
-        brandsAvailable: ["Heiniken", "Corona", "Modelo"]
     },
     {
         cardTitle: "Cubeta",
-        cardDescription: "Una cubeta que viene con 6 cervezas con la combinacion de cualquier cerveza prefieres",
+        cardDescription: "Una cubeta que viene con 6 cervezas con la combinacion de cualquier cerveza que prefieres",
         itemPrice: 33,
     }, {
         cardTitle: "Vaso en vino",
-        cardDescription: "",
+        cardDescription: "Un vaso de vino fino con opciones de vino rojo y blanco.",
         itemPrice: 8,
     }, {
         cardTitle: "Botella de vino",
-        cardDescription: "",
+        cardDescription: "Una botella de vino fino para compartir con amistades.",
         itemPrice: [30, 40],
     },
     {
         cardTitle: "Jarra Sangria",
-        cardDescription: "",
+        cardDescription: "Una jarra de sangria fresca.",
         itemPrice: 28,
-    },{
-        cardTitle: "Jarra Refajo",
-        cardDescription: "",
-        itemPrice: 28,
-    },{
-        cardTitle: "Bocadillo",
-        cardDescription: "",
-        itemPrice: 2,
     }, {
-            cardTitle: "Michelada",
-            cardDescription: "",
-            itemPrice: 14,
-        },
-        {
-            cardTitle: "Doble michelada",
-            cardDescription: "",
-            itemPrice: 18,
-        },
-        {
-            cardTitle: "Gomichela",
-            cardDescription: "",
-            itemPrice: 16,
-        }, 
-        {
-            cardTitle: "Heiniken Zero",
-            cardDescription: "Una cubeta que viene con 6 cervezas con la combinacion de cualquier cerveza prefieres",
-            itemPrice: 5,
-        },
-        {
-            cardTitle: "Red Bull",
-            cardDescription: "Una cubeta que viene con 6 cervezas con la combinacion de cualquier cerveza prefieres",
-            itemPrice: 7,
-        },
-        {
-            cardTitle: "Agua en botella",
-            cardDescription: "Una cubeta que viene con 6 cervezas con la combinacion de cualquier cerveza prefieres",
-            itemPrice: 5,
-        },
-        {
-            cardTitle: "Gaseosa",
-            cardDescription: "Una cubeta que viene con 6 cervezas con la combinacion de cualquier cerveza prefieres",
-            itemPrice: 5,
-        }    
+        cardTitle: "Jarra Refajo",
+        cardDescription: "Una jarra de refajo",
+        itemPrice: 28,
+    }, {
+        cardTitle: "Michelada",
+        cardDescription: "Una ",
+        itemPrice: 14,
+    },
+    {
+        cardTitle: "Doble michelada",
+        cardDescription: "",
+        itemPrice: 18,
+    },
+    {
+        cardTitle: "Gomichela",
+        cardDescription: "",
+        itemPrice: 16,
+    },
+    {
+        cardTitle: "Heiniken Zero",
+        cardDescription: "Una cubeta que viene con 6 cervezas con la combinacion de cualquier cerveza prefieres",
+        itemPrice: 5,
+    },
+    {
+        cardTitle: "Red Bull",
+        cardDescription: "Una cubeta que viene con 6 cervezas con la combinacion de cualquier cerveza prefieres",
+        itemPrice: 7,
+    },
+    {
+        cardTitle: "Agua en botella",
+        cardDescription: "Una cubeta que viene con 6 cervezas con la combinacion de cualquier cerveza prefieres",
+        itemPrice: 5,
+    },
+    {
+        cardTitle: "Gaseosa",
+        cardDescription: "Una cubeta que viene con 6 cervezas con la combinacion de cualquier cerveza prefieres",
+        itemPrice: 5,
+    }
 ]

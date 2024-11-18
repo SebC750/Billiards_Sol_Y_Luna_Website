@@ -13,11 +13,9 @@ const HeroSection = () => {
                         <p className="mb-5 text-sm md:text-base">
                             Este es el sitio web oficial de Billares Sol Y Luna! Aqui veras toda la informacion sobre nuestros servicios, productos, horarios etc. Haz clic abajo para aprender mas.
                         </p>
-                        <a href="#info-section"className="btn btn-outline-warning rounded-md w-full hover:text-black">
-                            <div className="text-xl md:text-md no-underline text-yellow-400 hover:text-black"> 
-                                Ver mas! 
-                                <i className="ml-2 bi bi-arrow-down-circle"></i>
-                            </div>
+                        <a href="#info-section"className="btn btn-outline-warning rounded-md w-full flex gap-2  hover:text-black">  
+                                <span className="text-2xl"> Ver mas! </span>
+                                <i className="ml-2 bi bi-arrow-down-circle text-2xl"></i>                      
                         </a>
                     </div>
                 </div>
