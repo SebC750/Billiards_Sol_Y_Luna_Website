@@ -40,7 +40,7 @@ export const homeCardsList: HomeCard[] = [
         cardTitle: "Catering",
         cardDescription: "Descubre nuestras opciones de catering para eventos en nuestro bar y salón de billar. Ofrecemos un ambiente único y deliciosos platillos para que tus reuniones sean inolvidables.",
         cardLink: "/Prices",
-        cardLinkText: "Ver galleria"
+        cardLinkText: "Ver precios"
     }
 ]
 
@@ -112,6 +112,8 @@ export const menuCardsList: MenuCard[] = [
     },
     
 ]
+/*
+Saving this for later for when fixed catering prices are given. 
 export const cateringPricesList: MenuCard[] = [
     {
         cardTitle: "Primera Communion",
@@ -129,3 +131,4 @@ export const cateringPricesList: MenuCard[] = [
         itemPrice: 500,
     }
 ]
+    */

@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react"
 import {Link} from "react-router-dom"
-const Navbar = () => {
+const Navbar = (props: {isHomepage: boolean}) => {
     const [scrolled, setScrolled] = useState(false)
     useEffect(() => {
         const changeNavColor = () => {
-            setScrolled(window.scrollY > 100)
+            setScrolled(window.scrollY > 50)
         }
         window.addEventListener('scroll', changeNavColor);
         return () => window.removeEventListener('scroll', changeNavColor);
@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <>
             <header>
-                <nav className={`${scrolled ? 'bg-black shadow-xl' : 'bg-transparent shadow-none'} flex flex-col md:flex-row justify-start items-center fixed top-0 p-2 w-full transition-all duration-250 z-10 border-b-2 border-yellow-400`}>
+                <nav className={`${scrolled || !props.isHomepage ? 'bg-black shadow-xl' : 'bg-transparent shadow-none'} flex flex-col md:flex-row justify-start items-center fixed top-0 p-2 w-full transition-all duration-250 z-10 border-b-2 border-yellow-400`}>
                     <div className="flex items-center p-2">
                         <img src="assets/sunandmoon.webp" alt="billiards sol y luna logo" className="h-12 w-12 rounded-full border border-transparent hover:border-yellow-400" />
                         <h2 className="cursor-pointer text-xl sm:text-xl md:text-2xl pl-4"> <a href="/" className="font-fascinate no-underline ml-2 transition-all text-yellow-400 mr-4 hover:text-3xl"> Billiards Sol y Luna </a></h2>
