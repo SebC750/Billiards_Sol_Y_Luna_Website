@@ -29,7 +29,7 @@ const Menu = () => {
                         <img src="images/catering_bg_image.webp" loading="lazy" alt="banner image for pool table section in menu page" className="object-cover w-100 opacity-50 md:h-[400px] mb-4" />
                         <h4 className="font-fascinate relative bottom-36 sm:bottom-64 text-yellow-400 left-4 lg:left-8 text-2xl md:text-5xl" id="catering-section"> Catering </h4>
                         <h4 className="text-4xl text-yellow-400"> Precio: Negociable </h4>
-                        <h6 className="text-yellow-400 mb-4"> Los precios del catering se negocian con el dueño. Por favor, contáctenos al [número de teléfono va aquí] para más información.</h6>
+                        <h6 className="text-yellow-400 mb-4"> Los precios del catering se negocian con el dueño. Por favor, contáctenos al +1 347-685-0673 para más información.</h6>
                     </div>
                 </div>
                 <Footer />
