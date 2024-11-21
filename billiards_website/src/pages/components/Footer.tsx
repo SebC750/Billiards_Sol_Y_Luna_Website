@@ -16,7 +16,7 @@ const Footer = () => {
                 <th> Dia </th>
                 <th> Abre </th>
                 <th> Cierra</th>
-              </tr>             
+              </tr>
             </thead>
             <tbody>
               {hours.map((val, index) => (
@@ -32,12 +32,13 @@ const Footer = () => {
         <section>
           <h3 className="font-fascinate"> Siguenos en </h3>
           <div className="flex flex-row justify-start items-center space-x-4">
-          <a aria-label="footer link to instagram page" className="transition-all text-black text-5xl hover:text-6xl md:text-2xl md:hover:text-3xl" href=""> <i className="bi bi-instagram"></i> </a> 
-          <a aria-label="footer link to facebook page" className="transition-all text-black text-5xl hover:text-6xl md:text-2xl md:hover:text-3xl" href=""> <i className="bi bi-facebook"></i> </a>
-          
+            <a aria-label="footer link to instagram page" className="transition-all text-black text-5xl hover:text-6xl md:text-2xl md:hover:text-3xl" href=""> 
+              <img src="images/Instagram_Glyph_Black.png" loading="lazy" alt="instagram page link" height="30" width="30"/>
+            </a>
+
           </div>
         </section>
-        
+
       </div>
       <p className="flex justify-center bg-black text-yellow-400 text-sm p-4 "> Billiards Sol y Luna, 2024. All rights reserved. </p>
     </footer>

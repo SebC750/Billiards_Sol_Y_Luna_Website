@@ -38,14 +38,6 @@ export const homeCardsList: HomeCard[] = [
         cardDescription: "Sumérgete en nuestro acogedor bar y sala de billar, donde te esperan buena compañía, un ambiente amigable y juegos emocionantes. ¡Descubre el ambiente vibrante y echa un vistazo a las noches llenas de diversión en nuestro establecimiento!",
         cardLink: "/Gallery",
         cardLinkText: "Ver galleria"
-    },
-    {
-        imageFile: "images/catering_bg_image.webp",
-        altTitle: "Card image for the catering menu section",
-        cardTitle: "Catering",
-        cardDescription: "Descubre nuestras opciones de catering para eventos en nuestro bar y salón de billar. Ofrecemos un ambiente único y deliciosos platillos para que tus reuniones sean inolvidables.",
-        cardLink: "/Menu",
-        cardLinkText: "Ver precios"
     }
 ]
 

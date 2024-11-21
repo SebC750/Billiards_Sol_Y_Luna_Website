@@ -60,5 +60,12 @@ export const gallery: Picture[] = [
         height: "auto",
         loading: "lazy"
     },
+    {
+        altTitle: "soccer match watch party video",
+        pictureLink: "images/game_video_new.mp4",
+        width: "auto",
+        height: "auto",
+        loading: "lazy"
+    }
 ]
 
