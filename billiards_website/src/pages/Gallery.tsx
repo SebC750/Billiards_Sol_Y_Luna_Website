@@ -5,7 +5,7 @@ const Gallery = () => {
     return (
         <>
             <Navbar isHomepage={false}/>
-            <div className="absolute top-72 md:top-36">
+            <div className="absolute top-72 md:top-36 w-100">
                 <div className="sm:px-8">
                     <h3 className="font-fascinate text-yellow-400 text-6xl border-yellow-400 ml-4 border-b-2 mb-4">Galleria</h3>
                     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 mb-4 p-2">
