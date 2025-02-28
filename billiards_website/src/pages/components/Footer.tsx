@@ -33,7 +33,7 @@ const Footer = () => {
         <section>
           <h3 className="font-fascinate"> Siguenos en </h3>
           <div className="flex flex-row justify-start items-center space-x-4">
-            <a aria-label="footer link to instagram page" className="transition-all text-black text-5xl hover:text-6xl md:text-2xl md:hover:text-3xl" href=""> 
+            <a href="https://www.instagram.com/billaressolyluna102/" aria-label="footer link to instagram page" className="transition-all text-black text-5xl hover:text-6xl md:text-2xl md:hover:text-3xl"> 
               <img src="images/Instagram_Glyph_Black.png" loading="lazy" alt="instagram page link" height="30" width="30"/>
             </a>
 
